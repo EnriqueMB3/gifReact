@@ -1,0 +1,35 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    padding: 60px;
+    background: #29303B;
+    color: white;
+}
+
+input {
+    color: gray;
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 5px;
+}
+
+.card {
+    align-content: center;
+    border-radius: 6px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
